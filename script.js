@@ -147,7 +147,7 @@ onload = () => {
             const message = encodeURIComponent(`Hey! Here's my number Khushi ji: ${val} 💕`);
             window.open(`https://api.whatsapp.com/send?phone=${targetNumber}&text=${message}`, '_blank');
         } else {
-            const defaultMsg = encodeURIComponent("Hey! Loved the lotus site! 💕");
+            const defaultMsg = encodeURIComponent("💕");
             window.open(`https://api.whatsapp.com/send?phone=${targetNumber}&text=${defaultMsg}`, '_blank');
         }
     };
